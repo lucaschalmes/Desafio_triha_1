@@ -1,0 +1,406 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.menu1 {
+    display: flex;
+    width: 96%;
+    background-color: rgb(5, 5, 5);
+    float: auto;
+    justify-content: space-between;
+    font-family: 'League Gothic', sans-serif;
+
+}
+
+
+.banner {
+    background-image: url('img/nasa-Q1p7bh3SHj8-unsplash\ copy\ \(1\).jpg');
+    background-size: cover;
+    min-height: 100vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.banner h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.banner .botaobanner {
+    background-color: rgb(255, 13, 126);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+}
+
+.componente2 {
+    margin-bottom: 20px;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+.component3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 98);
+    font-size: 25rem;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    float: auto;
+    justify-content: space-between;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+
+}
+
+
+
+.destaque {
+    margin-bottom: 5px;
+}
+
+.destaque1 {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.destaque1-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.destaque1-titulo {
+    font-size: 5rem;
+    text-align: left;
+    margin-bottom: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #D6274D;
+}
+
+.destaque1-subtitulo {
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #F5F3F3;
+}
+
+.destaque1-botao {
+    background-color: #D6274D;
+    color: #F5F3F3;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.imagem-destaque1 {
+    width: 500px;
+}
+
+/*parte destaque 2*/
+.destaque2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 50px;
+    color: aliceblue;
+}
+
+.destaque2-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.destaque2-titulo {
+    font-size: 5rem;
+    text-align: left;
+    margin-bottom: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #D6274D;
+
+}
+
+.destaque2-subtitulo {
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.destaque2-botao {
+    background-color: #ff0040;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.imagem-destaque2 {
+    width: 500px;
+}
+
+
+
+button {
+    border-radius: 15px;
+    border: none;
+    display: inline-block;
+    flex-grow: 1;
+    height: 100px;
+    align-items: center;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.botoes {
+    width: 50%;
+
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.menu1 {
+    display: flex;
+    width: 50%;
+    background-color: rgb(5, 5, 5);
+    float: auto;
+    justify-content: space-between;
+    font-family: 'League Gothic', sans-serif;
+    justify-content: left;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+li a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid rgb(221, 199, 199);
+    background: rgb(255, 0, 85);
+    text-decoration: none;
+    color: #FFF;
+    /* cantos arredondados */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background: #CCC;
+    color: #000;
+    border-color: #000;
+}
+
+/*submenu*/
+.menu3 {
+    width: 100px;
+
+}
+
+.menu {
+    list-style: none;
+    float: left;
+
+}
+
+.menu li {
+    position: relative;
+    float: left;
+
+}
+
+.menu li a {
+    padding: 25px 73px;
+    width: 30%;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background: rgb(255, 0, 128);
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: inline-block;
+}
+
+.menu li ul li {
+    display: block;
+    width: 150px;
+}
+
+.btn-wrap {
+
+    text-align: left;
+
+}
+
+/*foote*/
+footer {
+    width: 100%;
+    min-height: 250px;
+    background: #444;
+    display: flex;
+
+}
+
+
+footer .boxs {
+    width: 320%;
+    min-height: 150px;
+    padding: 20px;
+}
+
+footer .boxs:nth-child(4) {
+    width: 400px;
+
+}
+
+.boxs h2 {
+    color: #ff0040;
+    margin-bottom: 20px;
+
+}
+
+.rodape ul {
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+
+}
+
+
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+
+
+}
+
+.boxs ul li a {
+
+    color: #fffafa;
+    text-decoration: none;
+
+}
+
+.boxs ul li a:hover {
+
+    color: #F5F3F3;
+    text-align: center;
+}
+
+
+
+.boxs2 h2 {
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+
+
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+
+}
+
+.boxs ul li a:hover {
+
+    color: #F5F3F3;
+    text-align: center;
+}
+
+.rodape li a {
+    padding: 5px 10px;
+    margin: 0px;
+    border: 0px solid rgb(221, 199, 199);
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.rodape ul {
+    color: #CCC;
+}
+
+.rodape {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
