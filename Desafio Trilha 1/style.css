@@ -7,7 +7,7 @@ body {
 
 .menu1 {
     display: flex;
-    width: 96%;
+    width: 99%;
     background-color: rgb(5, 5, 5);
     float: auto;
     justify-content: space-between;
@@ -207,7 +207,7 @@ button {
 
 .menu1 {
     display: flex;
-    width: 50%;
+    width: 100%;
     background-color: rgb(5, 5, 5);
     float: auto;
     justify-content: space-between;
@@ -248,13 +248,14 @@ li a:hover {
 
 /*submenu*/
 .menu3 {
-    width: 100px;
+    width: 100%;
 
 }
 
 .menu {
     list-style: none;
     float: left;
+    width: 100%;
 
 }
 
